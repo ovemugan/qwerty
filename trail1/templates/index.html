@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index">Home</a></li>
+            <li><a href="register">Register</a></li>
+            <li><a href="login">Login</a></li>
+            <li><a href="exit">Exit</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>Hi, I am [Your Name]. Here is my resume:</p>
+        <a href="C:\Users\Omshakthi\OneDrive\Desktop\resume,pdf.pdf" target="_blank">View My Resume</a>
+        <br><br>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
